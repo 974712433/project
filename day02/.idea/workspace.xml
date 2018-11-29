@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87f49ce3-18c3-49c1-894f-333419352d2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elema/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meituan/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taobao/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day01/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/app/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,11 +58,12 @@
     <session id="1525895506">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -103,35 +100,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/elema/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="988">
-              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-                <marker date="1543308383779" expanded="true" signature="241:246" ph="..." />
-                <marker date="1543308383779" expanded="true" signature="617:622" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/elema/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <marker date="1543301995059" expanded="true" signature="134:139" ph="..." />
-                <marker date="1543301995059" expanded="true" signature="646:651" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -168,8 +137,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-149" />
-    <option name="y" value="115" />
+    <option name="x" value="43" />
+    <option name="y" value="112" />
     <option name="width" value="1655" />
     <option name="height" value="870" />
   </component>
@@ -198,6 +167,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,7 +189,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,9 +262,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-149" y="115" width="1655" height="870" extended-state="0" />
+    <frame x="43" y="112" width="1655" height="870" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09931719" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1016739" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -436,26 +405,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elema/models.py">
+    <entry file="file://$PROJECT_DIR$/elema/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <marker date="1543301995059" expanded="true" signature="134:139" ph="..." />
-            <marker date="1543301995059" expanded="true" signature="646:651" ph="..." />
-          </folding>
+        <state relative-caret-position="648">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elema/views.py">
+    <entry file="file://$PROJECT_DIR$/elema/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1543308383779" expanded="true" signature="241:246" ph="..." />
-            <marker date="1543308383779" expanded="true" signature="617:622" ph="..." />
-          </folding>
+        <state relative-caret-position="361">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>

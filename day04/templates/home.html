@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <style>
+        .d1{
+            width: 100%;
+            height: 50px;
+            font-size: 24px;
+            color: red;
+            background: aquamarine;
+        }
+    </style>
+</head>
+<body>
+{% include 'm_heard.html' %}
+<h1>home 页面</h1>
+{#{'name':name}#}
+<p>{{ name }}</p>
+{#变量#}
+{#变量不存在,则插入空字符串#}
+<p>{{ 哈哈 }}</p>
+
+{% if username %}
+    <p>用户名:{{ username }}</p>
+    {% else %}
+    <p>请登录后操作! <a href="#">登录</a></p>
+{% endif %}
+
+<div class="d1">3标签 for</div>
+
+<ul>
+    {% for grade in grades %}
+    <li>{{ grade }}</li>
+{% endfor %}
+</ul>
+
+<div class="d1">4标签 for</div>
+
+{% for good in goods %}
+    <p>{{ good }}</p>
+    {% empty %}
+    <p> 暂无商品展示</p>
+{% endfor %}
+
+
+<div class="d1">5标签 for</div>
+
+<ul>
+    {% for grade in grades %}
+    <li>{{ forloop.counter }}--{{ grade }}</li>
+{% endfor %}
+</ul>
+
+
+<div class="d1">5标签 过滤器</div>
+
+<p>{{ name | lower }}</p>
+
+
+{% include 'm_footer.html' %}
+</body>
+</html>

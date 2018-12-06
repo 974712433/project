@@ -2,9 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>首页</title>
 </head>
 <body>
-$END$
+<h1></h1>
+<p>
+    <a href="#">登录</a>
+</p>
+<p>
+    <a href="{% url 'mt:register' %}">注册</a>
+</p>
+{% if username  %}
+<p><a href="">退出</a></p>
+{% endif %}
 </body>
 </html>

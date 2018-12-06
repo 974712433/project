@@ -10,7 +10,7 @@ def index(request):
 
 def home(request):
     name = '张山'
-    username = ''
+    username = '李四'
     title = '美团.首页'
 
     grades = ['pt1810','pt1811','py1812']

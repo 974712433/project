@@ -1,0 +1,22 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+{% block title %}
+    闪购超市
+{% endblock %}
+
+{% block extcss %}
+    <link rel="stylesheet" href="{% static 'market/css/market.css' %}">
+{% endblock %}
+
+{% block extjs %}
+    <script src="{% static 'market/js/market.js' %}"></script>
+{% endblock %}
+
+{% block content %}
+    <div class="market">
+
+{#    侧边分类#}
+    <div class="type-slider"></div>
+    </div>
+{% endblock %}
